@@ -25,9 +25,18 @@ replay_pid*
 
 # VS Code
 **/.idea
-**/.idea/
-**/.vscode
+**/.idea/ 
 **/.vscode/*
 **./settings.json
 .vscode/settings.json
+
+# IntelliJ
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*/.idea/workspace.xml
+*.iws
+*.iml
+*.ipr
 
