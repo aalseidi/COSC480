@@ -10,4 +10,6 @@ module edu.emu.netmonitoring {
 
     opens edu.emu.netmonitoring to javafx.fxml;
     exports edu.emu.netmonitoring;
+    exports edu.emu.netmonitoring.controller;
+    opens edu.emu.netmonitoring.controller to javafx.fxml;
 }
