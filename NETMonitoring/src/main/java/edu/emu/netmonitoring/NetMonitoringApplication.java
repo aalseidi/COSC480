@@ -18,30 +18,8 @@ public class NetMonitoringApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(NetMonitoringApplication.class.getResource("/edu/emu/netmonitoring/fxml/dashboard.fxml"));
-        //Scene scene = new Scene(fxmlLoader.load(), 1200, 800);
-
-        stage.setTitle("Dashboard");
-        final NumberAxis xAxis = new NumberAxis();
-        final NumberAxis yAxis = new NumberAxis();
+        Scene scene = new Scene(fxmlLoader.load(), 1200, 800);
         
-        xAxis.setLabel("Time Interval");
-        yAxis.setLabel("# of user traffic");
-
-        final LineChart<Number, Number> lineChart = new LineChart<Number, Number>(xAxis, yAxis);
-        XYChart.Series series = new XYChart.Series<>();
-
-
-        lineChart.setTitle("Demo traffic monitoring on network");
-        series.getData().add(new XYChart.Data(1,15));
-        series.getData().add(new XYChart.Data(2,9));
-        series.getData().add(new XYChart.Data(3,7));
-        series.getData().add(new XYChart.Data(4,21));
-        series.getData().add(new XYChart.Data(5,23));
-        series.getData().add(new XYChart.Data(6,31));
-        series.getData().add(new XYChart.Data(7,17));
-
-        Scene scene  = new Scene(lineChart,800,600);
-        lineChart.getData().add(series);
 
         stage.setScene(scene);
         stage.show();

@@ -5,10 +5,21 @@
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.LineChart>
+<?import javafx.scene.chart.NumberAxis>
+<?import javafx.scene.chart.XYChart>
+
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="edu.emu.netmonitoring.controller.DashboardController"
             prefHeight="400.0" prefWidth="600.0">
-
+            <LineChart fx:id="lc" layoutX="-40.0" layoutY="-3.0" prefHeight="205.0" prefWidth="409.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+                <xAxis>
+                    <NumberAxis side="BOTTOM" fx:id="yAxis" />
+                </xAxis>
+                <yAxis>
+                    <NumberAxis side="LEFT" fx:id="xAxis" />
+                </yAxis>
+            </LineChart>
 </AnchorPane>
