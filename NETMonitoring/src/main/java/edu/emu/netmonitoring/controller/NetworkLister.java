@@ -19,6 +19,7 @@ public class NetworkLister {
                 System.out.println("Hardware Address: " + Arrays.toString(iface.getHardwareAddress()));
                 System.out.println("MTU: " + iface.getMTU());
                 System.out.println("-------------------------------------------------------");
+
             }
         } catch (Exception e) {
             e.printStackTrace();
