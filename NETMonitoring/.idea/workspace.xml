@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/NetMonitoringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/NetMonitoringApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/dashboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.41609195&quot;,
@@ -57,6 +58,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\3a9mf\Desktop\COSC 480\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring\fxml" />
+      <recent name="C:\Users\3a9mf\Desktop\COSC 480\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring" />
       <recent name="D:\Code Files\Courses Projects\Winter 2024\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring\fxml" />
       <recent name="D:\Code Files\Courses Projects\Winter 2024\COSC480\NETMonitoring\src\main\resources\edu\emu\netmonitoring\Fxml" />
     </key>
@@ -93,7 +95,14 @@
       <workItem from="1707228636431" duration="1287000" />
       <workItem from="1708036659366" duration="13000" />
       <workItem from="1708036785562" duration="4953000" />
-      <workItem from="1708644796840" duration="504000" />
+      <workItem from="1708644796840" duration="3581000" />
+      <workItem from="1709649316065" duration="2903000" />
+      <workItem from="1709823032120" duration="2328000" />
+      <workItem from="1710120965074" duration="275000" />
+      <workItem from="1710121252889" duration="7000" />
+      <workItem from="1710121278186" duration="10000" />
+      <workItem from="1710121362217" duration="672000" />
+      <workItem from="1710211207582" duration="40000" />
     </task>
     <servers />
   </component>
